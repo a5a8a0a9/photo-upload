@@ -51,7 +51,7 @@
 						],
 						"styles": [
 							"node_modules/bootstrap/dist/css/bootstrap.css",
-							"src/styles/styles.scss"
+							"src/style/style.scss"
 						],
 						"scripts": [
 							"node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
@@ -108,7 +108,7 @@
 								"input": "public"
 							}
 						],
-						"styles": ["src/styles/styles.scss"]
+						"styles": ["src/style/style.scss"]
 					}
 				}
 			}
