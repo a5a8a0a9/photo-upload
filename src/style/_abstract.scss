@@ -1,1 +1,6 @@
-@use "abstract/variable";
+@use "abstract/variable" as variable;
+
+@use "bootstrap/scss/bootstrap" with (
+	$enable-grid-classes: variable.$enable-grid-classes,
+	$enable-cssgrid: variable.$enable-cssgrid
+);
