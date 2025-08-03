@@ -49,10 +49,7 @@
 								"input": "public"
 							}
 						],
-						"styles": [
-							"node_modules/bootstrap/dist/css/bootstrap.css",
-							"src/style/style.scss"
-						],
+						"styles": ["src/style/style.scss"],
 						"scripts": [
 							"node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
 						]
