@@ -1,0 +1,14 @@
+.form-field {
+	display: flex;
+	flex-direction: column;
+	gap: 0.25rem;
+
+	&-label {
+		&.required {
+			&::after {
+				content: "*";
+				color: red;
+			}
+		}
+	}
+}

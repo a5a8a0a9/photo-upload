@@ -49,7 +49,10 @@
 								"input": "public"
 							}
 						],
-						"styles": ["src/style/style.scss"],
+						"stylePreprocessorOptions": {
+							"includePaths": ["src/styles/abstracts"]
+						},
+						"styles": ["src/styles/styles.scss"],
 						"scripts": [
 							"node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
 						]
@@ -105,7 +108,7 @@
 								"input": "public"
 							}
 						],
-						"styles": ["src/style/style.scss"]
+						"styles": ["src/styles/styles.scss"]
 					}
 				}
 			}
