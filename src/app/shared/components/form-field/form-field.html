@@ -1,0 +1,12 @@
+<div class="form-field">
+	@if (label()) {
+		<yo-form-field-label
+			[label]="label()"
+			[required]="required()"
+		></yo-form-field-label>
+	}
+
+	<ng-content></ng-content>
+
+	<yo-form-error [control]="control()"></yo-form-error>
+</div>
